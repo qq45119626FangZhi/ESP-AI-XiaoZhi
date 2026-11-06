@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical">
+
+    <!-- 顶部：标题显示下位机当前模式 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingTop="14dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_prefix"
+            android:textColor="@color/textMain"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvConnState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loading"
+            android:textColor="@color/textSub"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!-- 中间：监控画面区域，高度在代码里设为屏幕高度的 60%；无推流时保持空白（纯黑） -->
+    <FrameLayout
+        android:id="@+id/streamBox"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/ivStream"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/mode_monitor"
+            android:scaleType="fitCenter" />
+    </FrameLayout>
+
+    <!-- 占位，把按钮压到底部 -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- 底部两个按钮 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="12dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="16dp">
+
+        <Button
+            android:id="@+id/btnSwitchMode"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/card"
+            android:text="@string/btn_switch_mode"
+            android:textAllCaps="false"
+            android:textColor="@color/accent"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnSdFiles"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/card"
+            android:text="@string/btn_sd_files"
+            android:textAllCaps="false"
+            android:textColor="@color/accent"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

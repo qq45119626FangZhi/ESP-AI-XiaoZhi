@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 必须继承 AppCompat 主题（Activity 继承 AppCompatActivity） -->
+    <style name="Theme.XiaozhiDisplay" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+        <item name="android:textColorPrimary">@color/textMain</item>
+    </style>
+</resources>

@@ -1,0 +1,1 @@
+"{\"states\":[{\"name\":\"Speaker\",\"state\":{\"mute\":false,\"volume\":60}},{\"name\":\"Mode\",\"state\":{\"mode\":\"voice\"}}],\"type\":\"iot\",\"update\":true}"

@@ -1,0 +1,41 @@
+idf_component_register(
+  SRCS 
+    "main.c"
+    "common/xiaozhi_common.c"
+    "app/xiaozhi_appmode.c"
+    "doorbell/xiaozhi_doorbell.c"
+    "storage/xiaozhi_sdcard.c"
+    "storage/xiaozhi_recorder.c"
+    "camera/xiaozhi_camera.c"
+    "display/xiaozhi_camview.c"
+    "display/xiaozhi_camstamp.c"
+    "led/xiaozhi_led.c"
+    "adc_button/adc_button.c"
+    "internet/xiaozhi_wifi.c"
+    "internet/xiaozhi_active.c"
+    "internet/xiaozhi_time.c"
+    "internet/xiaozhi_ws.c"
+    "internet/xiaozhi_http.c"
+    "display/xiaozhi_lcd.c"
+    "display/xiaozhi_lvgl.c"
+    "audio/xiaozhi_audio.c"
+    "audio/xiaozhi_audio_encoder.c"
+    "audio/xiaozhi_audio_decoder.c"
+    "audio/xiaozhi_sr.c"
+    
+  INCLUDE_DIRS 
+    "."
+    "app"
+    "doorbell"
+    "storage"
+    "camera"
+    "display"
+    "led"
+    "adc_button"
+    "internet"
+    "common"
+    "audio"
+    "vol_iot_desc"
+    
+  EMBED_FILES image.jpg
+  )

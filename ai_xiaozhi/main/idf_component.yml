@@ -1,0 +1,29 @@
+## IDF Component Manager Manifest File
+dependencies:
+  ## Required IDF version
+  idf:
+    version: '>=4.1.0'
+  # # Put list of dependencies here
+  # # For components maintained by Espressif:
+  # component: "~1.0.0"
+  # # For 3rd party components:
+  # username/component: ">=1.0.0,<2.0.0"
+  # username2/component2:
+  #   version: "~1.0.0"
+  #   # For transient dependencies `public` flag can be set.
+  #   # `public` flag doesn't have an effect dependencies of the `main` component.
+  #   # All dependencies of `main` are public by default.
+  #   public: true
+  espressif/button: ^4.2.1
+  espressif/qrcode: ^0.2.0
+  ## 锁定 M2 之前已验收的版本，避免新增组件时被联动升级影响语音链路
+  esp_jpeg: '==1.3.1'
+  espressif/esp-dl: '==3.3.13'
+  espressif/esp_lvgl_port: ^2.9.0
+  78/xiaozhi-fonts: ^1.6.0
+  espressif/esp_codec_dev: ^1.6.2
+  espressif/esp-sr: ^2.5.3
+  espressif/esp_audio_codec: ^2.6.2
+  espressif/esp_websocket_client: ^1.8.0
+  ## 摄像头（M2）：OV2640 DVP 驱动
+  espressif/esp32-camera: ^2.0.15

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">小智监控</string>
+    <string name="title_prefix">AI小智 · </string>
+    <string name="mode_unknown">--</string>
+    <string name="mode_voice">语音</string>
+    <string name="mode_doorbell">门铃</string>
+    <string name="mode_monitor">监控</string>
+    <string name="btn_switch_mode">切换模式</string>
+    <string name="btn_sd_files">SD 文件</string>
+    <string name="sd_files_title">SD 卡文件</string>
+    <string name="empty_dir">空目录</string>
+    <string name="loading">加载中…</string>
+    <string name="permission_storage_denied">未授予存储权限，无法保存到下载目录</string>
+    <string name="download_started">开始下载：%1$s</string>
+    <string name="up_level">上一级</string>
+    <string name="sd_root">/sdcard</string>
+</resources>
