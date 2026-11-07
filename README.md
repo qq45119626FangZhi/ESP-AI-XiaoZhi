@@ -15,11 +15,13 @@ AI-小智项目
 
 
 
-上机位
+上机位\n
 安卓和HTML分别实现，控制切换模式，安卓扫描二维码，使用蓝牙配网，接收下机位监控画面，展示SD卡数据
+安卓界面 \n
 <img width="387" height="823" alt="image" src="https://github.com/user-attachments/assets/dc7164fd-85b0-4913-9279-0e9b85900c21" />
 <img width="380" height="814" alt="image" src="https://github.com/user-attachments/assets/911c1bb3-70bd-45c1-bcbb-5aa088538512" />
 
-安卓界面 
-HTML界面 <img width="385" height="818" alt="image" src="https://github.com/user-attachments/assets/dec74102-142d-4aae-a288-20d6b038570e" />
+
+HTML界面 \n
+<img width="385" height="818" alt="image" src="https://github.com/user-attachments/assets/dec74102-142d-4aae-a288-20d6b038570e" />
 
