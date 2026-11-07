@@ -3,6 +3,12 @@ AI-小智项目
 下机位主要功能\n
   1、蓝牙wifi 二维码扫描配网\n
   2、LVGL渲染 \n
+  <img width="2035" height="1279" alt="6765e22489e9a040207c45bebacf4d72" src="https://github.com/user-attachments/assets/c57566ca-cc13-4a10-999d-7afb91f0c81a" />
+  <img width="2270" height="1024" alt="25308522e5c8f1d3b0935bd8fb1347d2" src="https://github.com/user-attachments/assets/93bc2cd8-6314-44fe-9e97-c7b68d730036" />
+  <img width="2837" height="1280" alt="2bb18505b8b0a1b49e578ae8dadbd152" src="https://github.com/user-attachments/assets/80c03d2e-95ba-43f2-a7e0-6b7f104bdcec" />
+  <img width="2837" height="1280" alt="8e2178661c4c8bf709dc2b7981fc0747" src="https://github.com/user-attachments/assets/a9df8302-fc71-42cb-9aaa-9383b7c48286" />
+
+
   
   3、语音模式，AI智能聊天，采用DeepSeek大模型，使用websocekt通信
   语音交换流程：<img width="1565" height="612" alt="语音处理架构" src="https://github.com/user-attachments/assets/5ce26760-8180-4746-aef0-a897b18d8bf8" />
