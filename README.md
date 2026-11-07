@@ -1,7 +1,11 @@
 AI-小智项目
 
-下机位主要功能\n
+下机位主要功能
+
   1、蓝牙wifi 二维码扫描配网
+  <img width="1260" height="2800" alt="165be3b7b8a7523768436cbb411965a8" src="https://github.com/user-attachments/assets/3b9c2612-bb7a-4ab4-8677-9c8bb5aa8158" />
+  <img width="1260" height="2800" alt="image" src="https://github.com/user-attachments/assets/53735753-0758-44ce-bb68-fdfc1620cb9d" />
+  <img width="1260" height="2800" alt="33e3555a7d48ed8ddcbebc5c1caa8542" src="https://github.com/user-attachments/assets/0324d9cc-07c7-4fde-87d1-0e4213be6783" />
 
   
   2、LVGL渲染 
