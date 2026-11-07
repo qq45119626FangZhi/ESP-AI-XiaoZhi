@@ -20,7 +20,7 @@ AI-小智项目
 
   <img width="2035" height="1279" alt="6765e22489e9a040207c45bebacf4d72" src="https://github.com/user-attachments/assets/c57566ca-cc13-4a10-999d-7afb91f0c81a" />
   
-  2、蓝牙wifi 二维码扫描配网，SW3重新复位配网，需要重新扫描连接，配网成功，自动连接已配置的wifi
+  2、蓝牙wifi 低功耗蓝牙（基于 GATT）传输方式，二维码扫描配网，SW3重新复位配网，需要重新扫描连接，配网成功，自动连接已配置的wifi
  
  <img width="394" height="685" alt="image" src="https://github.com/user-attachments/assets/565fc6bd-4358-458e-8722-270f7d6906c2" />
 
@@ -46,7 +46,7 @@ AI-小智项目
   5、门铃模式
     <img width="2837" height="1280" alt="2bb18505b8b0a1b49e578ae8dadbd152" src="https://github.com/user-attachments/assets/80c03d2e-95ba-43f2-a7e0-6b7f104bdcec" />
 
-  6、监控模式，缓存监控录像到SD卡，使用http协议，推流摄像头数据到上机位展示
+  6、监控模式，摄像头OV2640驱动 缓存监控录像到SD卡，使用http协议，推流摄像头数据到上机位展示
   <img width="2837" height="1280" alt="8e2178661c4c8bf709dc2b7981fc0747" src="https://github.com/user-attachments/assets/a9df8302-fc71-42cb-9aaa-9383b7c48286" />
   
 
