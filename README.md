@@ -32,7 +32,7 @@ AI-小智项目
   5、门铃模式
     <img width="2837" height="1280" alt="2bb18505b8b0a1b49e578ae8dadbd152" src="https://github.com/user-attachments/assets/80c03d2e-95ba-43f2-a7e0-6b7f104bdcec" />
 
-  6、监控模式，缓存监控录像到SD卡，推流摄像头数据到上机位展示
+  6、监控模式，缓存监控录像到SD卡，使用http协议，推流摄像头数据到上机位展示
   <img width="2837" height="1280" alt="8e2178661c4c8bf709dc2b7981fc0747" src="https://github.com/user-attachments/assets/a9df8302-fc71-42cb-9aaa-9383b7c48286" />
   
 
